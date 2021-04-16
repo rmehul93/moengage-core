@@ -1,0 +1,48 @@
+{
+  "_from": "cordova-moengage-core",
+  "_id": "cordova-moengage-core@7.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-er45W+AWqSFbNGlT0GWkeANa2dUr1MvI/7DbWPRP+M81aakQBDVyuUR15lYntJrpSYIo2NfHHiJYT235ZSpHdA==",
+  "_location": "/cordova-moengage-core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-moengage-core",
+    "name": "cordova-moengage-core",
+    "escapedName": "cordova-moengage-core",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-moengage-core/-/cordova-moengage-core-7.1.1.tgz",
+  "_shasum": "649dbd5c8c9b1c76f7bf34c8527086645c7fb84f",
+  "_spec": "cordova-moengage-core",
+  "_where": "E:\\projects\\ionic\\moengage",
+  "author": {
+    "name": "MoEngage Inc."
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-moengage-core",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "MoEngage Cordova SDK",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "main": "MoECordova.js",
+  "name": "cordova-moengage-core",
+  "version": "7.1.1"
+}

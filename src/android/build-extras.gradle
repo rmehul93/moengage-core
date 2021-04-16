@@ -1,0 +1,26 @@
+repositories {
+    mavenLocal() //TODO: Remove this
+    mavenCentral()
+}
+
+ext {
+  //dependency version
+  moengageVersion = "11.0.04"
+  basePluginVersion = "2.0.00"
+  annotationsVersion = "1.0.0"
+}
+
+dependencies {
+  compileOnly("com.moengage:moe-android-sdk:$moengageVersion")
+  api("com.moengage:plugin-base:$basePluginVersion")
+  implementation("androidx.annotation:annotation:$annotationsVersion")
+}
+
+ext.postBuildExtras = {
+    android {
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+}
